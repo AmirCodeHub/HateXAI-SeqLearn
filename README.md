@@ -38,6 +38,7 @@ The `data` folder contains the three datasets used within the study.
 
 
 ### 3. Models
+Below you will find a table presenting the best-performing model architectures for each type: ANN, RNN, LSTM, and GRU. To compare the performance of the models based on evaluation metrics, please refer to the corresponding Python notebook provided in this repository ([model_performance_comparison.ipynb](https://github.com/AmirCodeHub/HateXAI-SeqLearn/blob/main/notebooks/model_evaluation/model_performance_comparison.ipynb) ).
 
 | Model  | Keras Architecture  | Validation Accuracy |
 |:----------|:----------|:----------|
