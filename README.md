@@ -39,12 +39,12 @@ The `data` folder contains the three datasets used within the study.
 
 ### 3. Models
 
-| Model  | Architecture  | Column 3  |
+| Model  | Keras Architecture  | Validation Accuracy |
 |:----------|:----------|:----------|
-| Cell 1    | Cell 2    | Cell 3    |
-| Cell 1    | Cell 2    | Cell 3    |
-| Cell 1    | Cell 2    | Cell 3    |
-| Cell 1    | Cell 2    | Cell 3    |
+| ANN    | ![ann](./models/model_architecture_plots/ann_model.png)    | 44.4%   |
+| RNN   | ![rnn](./models/model_architecture_plots/rnn_model.png)      |   84.0%  |
+| LSTM    | ![lstm](./models/model_architecture_plots/lstm_model.png)     |   85.3%  |
+| GRU    | ![gru](./models/model_architecture_plots/gru_model.png)   | 84.1%  |
 
 
 
