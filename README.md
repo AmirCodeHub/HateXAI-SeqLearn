@@ -24,20 +24,29 @@ The `notebooks` folder contains Jupyter Notebooks created during the studies.
 | [train_rnn.ipynb](https://github.com/AmirCodeHub/HateXAI-SeqLearn/blob/main/notebooks/model_training/train_rnn.ipynb)     | This Python notebook builds and trains multiple **RNN** models using the Keras API, optimizing hyperparameters with Bayesian Optimization for enhanced performance.|
 | [train_lstm.ipynb](https://github.com/AmirCodeHub/HateXAI-SeqLearn/blob/main/notebooks/model_training/train_lstm.ipynb)     | This Python notebook builds and trains multiple **LSTM** models using the Keras API, optimizing hyperparameters with Bayesian Optimization for enhanced performance. |
 | [train_gru.ipynb](https://github.com/AmirCodeHub/HateXAI-SeqLearn/blob/main/notebooks/model_training/train_gru.ipynb) | This Python notebook builds and trains multiple **GRU** models using the Keras API, optimizing hyperparameters with Bayesian Optimization for enhanced performance.   |
-| [model_performance_comparison.ipynb](https://github.com/AmirCodeHub/HateXAI-SeqLearn/blob/main/notebooks/model_evaluation/model_performance_comparison.ipynb)    |  This Python notebook enables the comparison of trained ANN, RNN LSTM, and GRU models by presenting confusion matrices and calculating metrics such as **Precision**, **Recall**, **F1 Score**, and **Accuracy**, offering insights into each model's performance |
-| [xai_comparison_notebook.ipynb](https://github.com/AmirCodeHub/HateXAI-SeqLearn/blob/main/notebooks/model_evaluation/xai_comparison_notebook.ipynb)    | This Python notebook assesses LSTM, GRU and ANN models on selected hate speech and offensive language data samples using the XAI method **LIME** ([Ribero et. al.](https://arxiv.org/abs/1602.04938)) , providing valuable insights into the explainability of each model's predictions. **Please note** that this file has been uploaded using Git Large File Storage (LFS) due to its larger size    |
+| [model_performance_comparison.ipynb](https://github.com/AmirCodeHub/HateXAI-SeqLearn/blob/main/notebooks/model_evaluation/model_performance_comparison.ipynb)    |  This Python notebook enables the comparison of trained ANN, RNN, LSTM, and GRU models by plotting confusion matrices and calculating metrics such as **Precision**, **Recall**, **F1 Score**, and **Accuracy**. This offers valuable insights into each model's performance |
+| [xai_comparison_notebook.ipynb](https://github.com/AmirCodeHub/HateXAI-SeqLearn/blob/main/notebooks/model_evaluation/xai_comparison_notebook.ipynb)    | This Python notebook assesses LSTM, GRU and ANN models on selected hate speech and offensive language data samples using the XAI method **LIME** ([Ribero et. al.](https://arxiv.org/abs/1602.04938)). The notebook provides valuable insights into the explainability of each model's predictions. **Please note** that this file has been uploaded using Git Large File Storage (LFS) due to its larger size    |
 
 
 ### 2. Datasets:
-The `data` folder contains the datasets used within the study.
+The `data` folder contains the three datasets used within the study.
 
 
-* ([source](https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset)) : 
-* ([source](https://www.kaggle.com/datasets/arkhoshghalb/twitter-sentiment-analysis-hatred-speech)) : 
-* ([source](https://www.kaggle.com/datasets/usharengaraju/dynamically-generated-hate-speech-dataset)) : 
+* [hatespeech_multiclass_data.csv](https://github.com/AmirCodeHub/HateXAI-SeqLearn/blob/main/data/hatespeech_multiclass_data.csv): This Kaggle dataset ([source](https://www.kaggle.com/datasets/mrmorj/hate-speech-and-offensive-language-dataset)) features text data labeled as Hate Speech, Offensive Language, or Neither, providing a useful resource for model training in detecting offensive content.
+* [sentiment_analysis_hate_speech.csv](https://github.com/AmirCodeHub/HateXAI-SeqLearn/blob/main/data/sentiment_analysis_hate_speech.csv): This dataset ([source](https://www.kaggle.com/datasets/arkhoshghalb/twitter-sentiment-analysis-hatred-speech)) contains text data labeled as Hate Speech or No Hate Speech, offering a practical resource for training models to identify hate speech.
+* [dynamically_generated_hate_speech.csv](https://github.com/AmirCodeHub/HateXAI-SeqLearn/blob/main/data/dynamically_generated_hate_speech.csv): This dataset ([source](https://www.kaggle.com/datasets/usharengaraju/dynamically-generated-hate-speech-dataset)) contains dynamically created Hate Speech and Non-Hate Speech data, designed to improve the detection of online hate speech.
 
 
 ### 3. Models
+
+| Model  | Architecture  | Column 3  |
+|:----------|:----------|:----------|
+| Cell 1    | Cell 2    | Cell 3    |
+| Cell 1    | Cell 2    | Cell 3    |
+| Cell 1    | Cell 2    | Cell 3    |
+| Cell 1    | Cell 2    | Cell 3    |
+
+
 
 
 ## Citation Note
