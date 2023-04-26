@@ -38,14 +38,16 @@ The `data` folder contains the three datasets used within the study.
 
 
 ### 3. Models
+Due to file size limitations, the used Keras models have been uploaded to a dedicated [Google Drive](https://drive.google.com/drive/folders/1Ws7XZlL7j1uBf8wUW4rzhhS07xtLImVs?usp=share_link) folder.
+
 Below you will find a table presenting the best-performing model architectures for each type: ANN, RNN, LSTM, and GRU. To compare the performance of the models based on evaluation metrics, please refer to the corresponding Python notebook provided in this repository ([model_performance_comparison.ipynb](https://github.com/AmirCodeHub/HateXAI-SeqLearn/blob/main/notebooks/model_evaluation/model_performance_comparison.ipynb) ).
 
 | Model  | Keras Architecture  | Validation Accuracy |
 |:----------|:----------|:----------|
-| ANN    | ![ann](./models/model_architecture_plots/ann_model.png)    | 44.4%   |
-| RNN   | ![rnn](./models/model_architecture_plots/rnn_model.png)      |   84.0%  |
-| LSTM    | ![lstm](./models/model_architecture_plots/lstm_model.png)     |   85.3%  |
-| GRU    | ![gru](./models/model_architecture_plots/gru_model.png)   | 84.1%  |
+| [ANN](https://drive.google.com/drive/folders/1hRoeUaWqQrsaYGPlMcxg-Y7eDWu49r-n?usp=share_link)    | ![ann](./models/model_architecture_plots/ann_model.png)    | 44.4%   |
+| [RNN](https://drive.google.com/drive/folders/1FUqnbGM2EX2Xd44pTrxgy0hnEFXk8PyP?usp=share_link)   | ![rnn](./models/model_architecture_plots/rnn_model.png)      |   84.0%  |
+| [LSTM](https://drive.google.com/drive/folders/1BPD4I-sIdYK9_fh9nXA0SRi89W9deyRy?usp=share_link)    | ![lstm](./models/model_architecture_plots/lstm_model.png)     |   85.3%  |
+| [GRU](https://drive.google.com/drive/folders/12AZzTepFYXMR5zy7a450R4AnQOfE1wMv?usp=share_link)    | ![gru](./models/model_architecture_plots/gru_model.png)   | 84.1%  |
 
 
 
